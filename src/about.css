@@ -1,0 +1,56 @@
+.about{
+    background-color:black;
+    font-family: Lora;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* Neeche vaale line ke code se bache ke */
+    /* margin-left: 300px; */
+}
+
+.about h2{
+    color:wheat;
+    padding-top: 20px ;
+
+}
+
+.about h4{
+    color: wheat;
+    /* padding-right: 88rem; */
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.about p {
+   
+    color: aliceblue;
+    text-align: left;
+    padding-left: 10px;
+
+    
+}
+
+.about > .services1 > .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about > .services1 > .row span{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.about > .services1 > .row h3{
+   color: wheat;
+}
+
+.about > .services1 > .row span ion-icon{
+    contain: none;
+}
